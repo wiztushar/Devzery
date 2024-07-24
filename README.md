@@ -62,11 +62,15 @@ pipenv shell
 
 2. Update the SQLALCHEMY_DATABASE_URI in app.py to match your database credentials:(Python)
 
-```app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:superuser@localhost/Devzery' ```
+```
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:superuser@localhost/Devzery'
+```
 
 3. Initialize the database in bash:
 
-```flask db upgrade```
+```
+flask db upgrade
+```
 
 
 4. Run the Flask server:
